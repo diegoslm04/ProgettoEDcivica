@@ -1,0 +1,89 @@
+.header {
+  background-color: #8bc34a; /* Sfondo verde chiaro */
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+/* Stile per il logo */
+.logo {
+  width: 50px;
+  height: 50px;
+  background-image: url('/immages/salviamo\ il\ pianeta\ \(2\).png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* stile generale per la barra di navigazione */
+#hormenu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#hormenu ul li {
+  position: relative;
+  float: left;
+  width: 150px;
+  background-color: #6fa036; /* colore di sfondo normale */
+  text-align: center;
+  line-height: 30px;
+}
+
+#hormenu ul li:hover {
+  background-color: #28a00a; /* colore di sfondo durante il passaggio del cursore */
+}
+
+#hormenu ul ul {
+  display: none;
+  position: absolute;
+  top: 30px;
+}
+
+#hormenu ul li:hover > ul {
+  display:inherit;
+}
+
+#hormenu ul ul li {
+  width: 100%;
+  float: none;
+}
+
+#hormenu a {
+  display: block;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+#hormenu ul ul li a {
+  background-color: #1e963c; /* colore di sfondo normale per le voci del sotto-menu */
+}
+
+#hormenu ul ul li a:hover {
+  background-color:#059960; /* colore di sfondo durante il clic */
+}
+
+
+.tit1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.imm1 {
+  margin-top: 1px;
+  display: flex;
+  justify-content: center;
+}
+
+.imm1 img {
+  width: 600px;
+}
+
+.testo1{
+  margin-top: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
