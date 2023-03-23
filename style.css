@@ -1,0 +1,178 @@
+/* Stile per l'intero header */
+.header {
+    background-color: #8bc34a; /* Sfondo verde chiaro */
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  /* Stile per il logo */
+  .logo {
+    width: 50px;
+    height: 50px;
+    background-image: url('/immages/salviamo\ il\ pianeta\ \(2\).png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  /* stile generale per la barra di navigazione */
+#hormenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  #hormenu ul li {
+    position: relative;
+    float: left;
+    width: 150px;
+    background-color: #6fa036; /* colore di sfondo normale */
+    text-align: center;
+    line-height: 30px;
+  }
+  
+  #hormenu ul li:hover {
+    background-color: #28a00a; /* colore di sfondo durante il passaggio del cursore */
+  }
+  
+  #hormenu ul ul {
+    display: none;
+    position: absolute;
+    top: 30px;
+  }
+  
+  #hormenu ul li:hover > ul {
+    display:inherit;
+  }
+  
+  #hormenu ul ul li {
+    width: 100%;
+    float: none;
+  }
+  
+  #hormenu a {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  #hormenu ul ul li a {
+    background-color: #1e963c; /* colore di sfondo normale per le voci del sotto-menu */
+  }
+  
+  #hormenu ul ul li a:hover {
+    background-color:#059960; /* colore di sfondo durante il clic */
+  }
+
+
+
+
+  .immMondo {
+    margin-top: 30px;
+    display: flex; /* rende il contenitore un flex container */
+    justify-content: center; /* centra l'immagine orizzontalmente */
+    text-align: center; /* allinea il testo del contenitore al centro */
+  }
+  
+  .immMondo img {
+    max-width: 100%; /* impedisce all'immagine di superare la larghezza del suo contenitore */
+  }
+
+  .classeedu{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+  }
+
+
+  .testo{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-left: auto ;
+    margin-right: auto ;
+  }
+  
+  
+
+  
+  
+ 
+  .container {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 70px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .text{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .right {
+    max-width: 500px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+  .left {
+    flex: 1;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif   ;
+  }
+  
+  
+.plasticatitolo{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+
+
+.noi {
+    margin-top: 70px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .noi h2 {
+    margin-top: 80px;
+    text-align: center;
+  }
+  
+  .noi .contenuto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 800px;
+  }
+  
+  .noi .DX {
+    max-width: 400px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 70px;
+  }
+  
+  .noi .SX {
+    width: 400px;
+    align-items: center;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
